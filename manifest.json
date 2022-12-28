@@ -37,6 +37,18 @@
           "en": "Showing my plug-in",
           "de": "Mein Plug-in"
         }
-      }
+      },
+      {
+        "id": "510e9e0c-e3b8-44a8-8db1-5185d3d844ce",
+        "url": "/plugin-test/second.html",
+        "name": {
+          "en": "My second plug-in view",
+          "de": "Meine erste Plug-in Ansicht"
+        },
+        "description": {
+          "en": "Showing my plug-in (second view)",
+          "de": "Mein Plug-in"
+        }
+      },
     ]
   }
