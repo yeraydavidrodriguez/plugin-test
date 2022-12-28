@@ -4,6 +4,7 @@ export class DemoPlugin {
     constructor() {
         new PluginAdapter().init().then((data:any) => {
             const name = data['ctx.userName'];
+            alert(JSON.stringify(data));
             this.changeName(name);
         });
     }
