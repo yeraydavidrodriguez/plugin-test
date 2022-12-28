@@ -28,7 +28,7 @@
     "entryPoints": [
       {
         "id": "510e9e0c-e3b8-44a8-8db1-5185d3d844ce",
-        "url": "/plugin-test/",
+        "url": "/plugin-test/dist/",
         "name": {
           "en": "My first plug-in view",
           "de": "Meine erste Plug-in Ansicht"
@@ -40,7 +40,7 @@
       },
       {
         "id": "510e9e0c-e3b8-44a8-8db1-5185d3d844cf",
-        "url": "/plugin-test/second.html",
+        "url": "/plugin-test/dist/second.html",
         "name": {
           "en": "My second plug-in view",
           "de": "Meine erste Plug-in Ansicht"
