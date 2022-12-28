@@ -1,6 +1,6 @@
 {
     "manifestVersion": "2.0.0",
-    "pluginVersion": "0.1.4",
+    "pluginVersion": "0.1.5",
     "name": {
       "en": "Demo Plugin - Step 1",
       "de": "Demo Plugin - Step 1"
@@ -25,6 +25,7 @@
           }
         }
       ],
+    "context": ["userName"],
     "entryPoints": [
       {
         "id": "510e9e0c-e3b8-44a8-8db1-5185d3d844ce",
