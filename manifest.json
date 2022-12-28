@@ -13,12 +13,16 @@
         {
           "key": "sample-field",
           "type": "text",
-          "label": "sample field"
+          "label": {
+            "en": "Sample field"
+          }
         },
         {
           "key": "num-field",
           "type": "number",
-          "label": "sample numerica field"
+          "label": {
+            "en": "Sample numeric field"
+          }
         }
       ],
     "entryPoints": [
