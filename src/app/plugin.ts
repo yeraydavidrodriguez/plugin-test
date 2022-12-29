@@ -4,8 +4,10 @@ export class DemoPlugin {
     constructor() {
         new PluginAdapter().init().then((data:any) => {
             // const name = data['ctx.userName'];
-            alert(JSON.stringify(data));
+            //alert(JSON.stringify(data));
+            console.log("----------");
             console.log(JSON.stringify(data));
+            console.log("----------");
             // this.changeName(name);
         });
     }
