@@ -6,6 +6,8 @@ export class DemoPlugin {
             const name = data['claims.ctx.userName'];
             console.log("----------");
             console.log(JSON.stringify(data));
+            console.log("==========");
+            console.log(JSON.stringify(data.claims.ctx.userName));
             console.log("----------");
             this.changeName(name);
         });
