@@ -3,9 +3,10 @@ import {PluginAdapter} from '@coyoapp/plugin-adapter';
 export class DemoPlugin {
     constructor() {
         new PluginAdapter().init().then((data:any) => {
-            const name = data['ctx.userName'];
+            // const name = data['ctx.userName'];
             alert(JSON.stringify(data));
-            this.changeName(name);
+            console.log(JSON.stringify(data));
+            // this.changeName(name);
         });
     }
 
