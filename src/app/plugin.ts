@@ -7,7 +7,7 @@ export class DemoPlugin {
             console.log("----------");
             console.log(JSON.stringify(data));
             console.log("----------");
-            // this.changeName(name);
+            this.changeName(name);
         });
     }
 
