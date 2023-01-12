@@ -6,7 +6,7 @@ export class DemoPlugin {
             const name = data.claims.ctx.userName;
             this.changeName(name);
             const debugelement = document.getElementById('info')!;
-            debugelement.innerText = JSON.stringify(data);
+            debugelement.innerText = '---'+JSON.stringify(data)+'---';
         });
 
         const debugelement = document.getElementById('info')!;
