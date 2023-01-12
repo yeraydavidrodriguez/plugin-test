@@ -5,7 +5,12 @@ export class DemoPlugin {
         new PluginAdapter().init().then((data:any) => {
             const name = data.claims.ctx.userName;
             this.changeName(name);
+            const debugelement = document.getElementById('info')!;
+            debugelement.innerText = JSON.stringify(data);
         });
+
+        const debugelement = document.getElementById('info')!;
+        debugelement.innerText = "Loading";
     }
 
     private changeName(userName: string) {
