@@ -30,6 +30,7 @@
       {
         "id": "510e9e0c-e3b8-44a8-8db1-5185d3d844ce",
         "url": "/plugin-test/dist/",
+        "height": "1000",
         "name": {
           "en": "My first plug-in view",
           "de": "Meine erste Plug-in Ansicht"
@@ -42,6 +43,7 @@
       {
         "id": "510e9e0c-e3b8-44a8-8db1-5185d3d844cf",
         "url": "/plugin-test/dist/second.html",
+        "height": "2:1",
         "name": {
           "en": "My second plug-in view",
           "de": "Meine erste Plug-in Ansicht"
