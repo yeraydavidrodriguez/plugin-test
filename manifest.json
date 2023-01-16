@@ -1,6 +1,6 @@
 {
     "manifestVersion": "2.0.0",
-    "pluginVersion": "0.1.11",
+    "pluginVersion": "0.1.12",
     "name": {
       "en": "Demo Plugin - Step 1",
       "de": "Demo Plugin - Step 1"
@@ -30,7 +30,7 @@
       {
         "id": "510e9e0c-e3b8-44a8-8db1-5185d3d844ce",
         "url": "/plugin-test/dist/",
-        "height": "1000",
+        "height": 1000,
         "name": {
           "en": "My first plug-in view",
           "de": "Meine erste Plug-in Ansicht"
