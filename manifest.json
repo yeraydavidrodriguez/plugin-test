@@ -1,6 +1,6 @@
 {
     "manifestVersion": "2.0.0",
-    "pluginVersion": "0.1.14",
+    "pluginVersion": "0.1.15",
     "name": {
       "en": "Demo Plugin - Step 1",
       "de": "Demo Plugin - Step 1"
@@ -37,7 +37,8 @@
         "description": {
           "en": "Showing my plug-in",
           "de": "Mein Plug-in"
-        }
+        },
+        "height": 50
       },
       {
         "id": "510e9e0c-e3b8-44a8-8db1-5185d3d844cf",
