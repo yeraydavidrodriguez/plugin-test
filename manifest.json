@@ -31,12 +31,12 @@
         "id": "510e9e0c-e3b8-44a8-8db1-5185d3d844ce",
         "url": "/plugin-test/dist/",
         "name": {
-          "en": "My first plug-in view",
-          "de": "Meine erste Plug-in Ansicht"
+          "en": "350 height",
+          "de": "350 height"
         },
         "description": {
-          "en": "Showing my plug-in",
-          "de": "Mein Plug-in"
+          "en": "",
+          "de": ""
         },
         "height": 350
       },
@@ -44,14 +44,39 @@
         "id": "510e9e0c-e3b8-44a8-8db1-5185d3d844cf",
         "url": "/plugin-test/dist/second.html",
         "name": {
-          "en": "My second plug-in view",
-          "de": "Meine erste Plug-in Ansicht"
+          "en": "1:2 ratio",
+          "de": "1:2 ratio"
         },
         "description": {
-          "en": "Showing my plug-in (second view)",
-          "de": "Mein Plug-in"
+          "en": "",
+          "de": ""
         },
-        "height": "2:1"
+        "height": "1:2"
+      },
+      {
+        "id": "510e9e0c-e3b8-44a8-8db1-5185d3d844ff",
+        "url": "/plugin-test/dist/second.html",
+        "name": {
+          "en": "35 height",
+          "de": "35 height"
+        },
+        "description": {
+          "en": "",
+          "de": ""
+        },
+        "height": 35
+      },
+      {
+        "id": "510e9e0c-e3b8-44a8-8db1-5385d3d844ff",
+        "url": "/plugin-test/dist/second.html",
+        "name": {
+          "en": "No height",
+          "de": "No height"
+        },
+        "description": {
+          "en": "",
+          "de": ""
+        }
       }
     ]
   }
