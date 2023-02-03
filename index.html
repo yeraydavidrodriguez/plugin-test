@@ -1,0 +1,41 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+        <style>
+            body { padding: 0; margin: 0; }
+            #plugin-iframe { padding: 0; margin: 0; width: 100%; border: 0; }
+        </style>
+    </head>
+    <body>
+    <script>
+        window.addEventListener('message', message => {
+            window.webkit.messageHandlers.iosBridge.postMessage({
+                "message": message.data,
+                "origin": message.origin
+            });
+    })</script>
+    <iframe id="plugin-iframe"
+            referrerpolicy="strict-origin"
+            height="200px"
+            scrolling="no"
+            src="first.html"></iframe>
+    </body>
+    <script>
+function disableScrolling(frame) {
+  frame.style.overflow = 'hidden';
+  var i;
+  for (i = 0; i < frame.childNodes.length; i++) {
+    var child = frame.childNodes[i];
+    if (child.nodeType === 1 && child.tagName === 'IFRAME') {
+      disableScrolling(child.contentWindow.document.body);
+    }
+  }
+}
+
+// Run this on page load
+window.onload = function() {
+  disableScrolling(document.body);
+};
+
+    </script>
+</html>
